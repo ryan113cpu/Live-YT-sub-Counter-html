@@ -17,6 +17,4 @@ async function getsubs(){
     const nodeCarry = document.createTextNode(`Subscriber : ${subscriberCountCarry}`);
     carry.append(nodeCarry);
     rootCarry.append(carry);
-  
-
-}
+  }
