@@ -6,7 +6,7 @@ async function getsubs(){
   // Use You google cloud console Yt api after "&key="
 
     const channelIdCarry = 'UCm1_-vkonHv3nQuvux5xtDw'
-    const urlCarry = `https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${channelIdCarry}&key=AIzaSyCjlpCxj8Xh5Qh_yhTV3KAlyo7EH3oPCV8`;
+    const urlCarry = `https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${channelIdCarry}&key=ApiKey`;
     const responseCarry =await fetch(urlCarry);
     const dataCarry = await responseCarry.json();
     const subscriberCountCarry = dataCarry.items[0].statistics.subscriberCount
