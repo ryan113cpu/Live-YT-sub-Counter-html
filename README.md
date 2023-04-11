@@ -13,12 +13,12 @@ Demo Here -- www.helalk.com/about
 ## Usage
 To use the Youtube Live Subscribe Counter in your web page, follow these steps:
 
-1 Open **script.js** file in your Code editor.
-2 Replace the *UCm1_-vkonHv3nQuvux5xtDw*  following code to the Your YT channel ID:
+1. Open **script.js** file in your Code editor.
+2. Replace the *UCm1_-vkonHv3nQuvux5xtDw*  following code to the Your YT channel ID:
 ```js
 const channelIdCarry = 'UCm1_-vkonHv3nQuvux5xtDw'
 ```
-3 Replace **ApiKey** with your Google console YT API key.
+3. Replace **ApiKey** with your Google console YT API key.
 ```js
 const urlCarry = `https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${channelIdCarry}&key=ApiKey`;
 ```
